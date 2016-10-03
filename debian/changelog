@@ -1,3 +1,10 @@
+lttnganalyses (0.5.4-2) unstable; urgency=medium
+
+  * [d098edb] Reduce priority to extra, per policy on priorities
+  * [83b22eb] Add tzdata to builddeps (Closes: #839475)
+
+ -- Michael Jeanson <mjeanson@ubuntu.com>  Mon, 03 Oct 2016 14:53:19 -0400
+
 lttnganalyses (0.5.4-1) unstable; urgency=medium
 
   * [95d8e85] New upstream version 0.5.4
