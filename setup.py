@@ -52,6 +52,7 @@ def read_file(filename):
     with open(filename, encoding='utf-8') as source:
         return source.read()
 
+
 setup(
     name='lttnganalyses',
     version=versioneer.get_version(),
@@ -107,6 +108,10 @@ setup(
             'lttng-schedtop = lttnganalyses.cli.sched:runtop',
             'lttng-schedstats = lttnganalyses.cli.sched:runstats',
             'lttng-schedfreq = lttnganalyses.cli.sched:runfreq',
+            'lttng-periodlog = lttnganalyses.cli.periods:runlog',
+            'lttng-periodtop = lttnganalyses.cli.periods:runtop',
+            'lttng-periodstats = lttnganalyses.cli.periods:runstats',
+            'lttng-periodfreq = lttnganalyses.cli.periods:runfreq',
 
             # MI mode
             'lttng-cputop-mi = lttnganalyses.cli.cputop:run_mi',
@@ -124,6 +129,10 @@ setup(
             'lttng-schedtop-mi = lttnganalyses.cli.sched:runtop_mi',
             'lttng-schedstats-mi = lttnganalyses.cli.sched:runstats_mi',
             'lttng-schedfreq-mi = lttnganalyses.cli.sched:runfreq_mi',
+            'lttng-periodlog-mi = lttnganalyses.cli.periods:runlog_mi',
+            'lttng-periodtop-mi = lttnganalyses.cli.periods:runtop_mi',
+            'lttng-periodstats-mi = lttnganalyses.cli.periods:runstats_mi',
+            'lttng-periodfreq-mi = lttnganalyses.cli.periods:runfreq_mi',
         ],
     },
 
@@ -132,8 +141,12 @@ setup(
         'lttng-track-process'
     ],
 
+    install_requires=[
+        'pyparsing',
+    ],
+
     extras_require={
-        'progressbar':  ["progressbar"]
+        'progressbar': ["progressbar"]
     },
 
     test_suite='tests',
