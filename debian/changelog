@@ -1,3 +1,10 @@
+lttnganalyses (0.6.1-1) unstable; urgency=medium
+
+  * [63af7e6] New upstream version 0.6.1
+  * [7ceb598] Drop patch merged upstream
+
+ -- Michael Jeanson <mjeanson@ubuntu.com>  Fri, 06 Jan 2017 11:33:45 -0500
+
 lttnganalyses (0.6.0-1) unstable; urgency=medium
 
   * [62223f9] New upstream version 0.6.0
