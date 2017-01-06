@@ -13,6 +13,10 @@ lttng-irqfreq
 lttng-irqlog
 lttng-irqstats
 lttng-memtop
+lttng-periodfreq
+lttng-periodlog
+lttng-periodstats
+lttng-periodtop
 lttng-schedfreq
 lttng-schedlog
 lttng-schedstats
@@ -20,8 +24,11 @@ lttng-schedtop
 lttng-syscallstats
 lttng-track-process
 mit-license.txt
+requirements.txt
 setup.cfg
 setup.py
+test-requirements.txt
+tox.ini
 versioneer.py
 lttnganalyses/__init__.py
 lttnganalyses/_version.py
