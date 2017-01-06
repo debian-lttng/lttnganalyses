@@ -1,3 +1,12 @@
+lttnganalyses (0.6.0-1) unstable; urgency=medium
+
+  * [62223f9] New upstream version 0.6.0
+  * [1710959] Add python3-pyparsing to builddeps
+  * [061e2cf] Use C.UTF8 locale to run tests
+  * [5c2a89b] Update man pages for 0.6.0
+
+ -- Michael Jeanson <mjeanson@ubuntu.com>  Fri, 06 Jan 2017 11:16:52 -0500
+
 lttnganalyses (0.5.4-2) unstable; urgency=medium
 
   * [d098edb] Reduce priority to extra, per policy on priorities
