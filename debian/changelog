@@ -1,3 +1,18 @@
+lttnganalyses (0.6.1-2) unstable; urgency=medium
+
+  * [f5ca8b5] Move to DEP-14 branch naming
+  * [d154092] Use https url in watch file
+  * [8bcce9a] Switched my maintainer email to @debian.org
+  * [a404d59] Moved VCS to salsa.debian.org
+  * [b1b37bd] Drop X-Python3-Version
+  * [3c7bb76] Add dh-python to builddeps
+  * [6ddf4ae] Use secure URI in debian copyright
+  * [de4bd47] Use salsa canonical uri in VCS-Browser
+  * [a6ed511] Changed deprecated extra priority to optional
+  * [2902b3f] Bump standard to 4.1.4, no changes necessary
+
+ -- Michael Jeanson <mjeanson@debian.org>  Wed, 04 Jul 2018 10:53:01 -0400
+
 lttnganalyses (0.6.1-1) unstable; urgency=medium
 
   * [63af7e6] New upstream version 0.6.1
