@@ -11,7 +11,7 @@ Build-Depends: debhelper-compat (= 13),
  python3-pyparsing,
  python3-setuptools,
  tzdata
-Standards-Version: 4.1.4
+Standards-Version: 4.6.0.1
 Vcs-Git: https://salsa.debian.org/debian/lttnganalyses.git
 Vcs-Browser: https://salsa.debian.org/debian/lttnganalyses
 Homepage: https://github.com/lttng/lttng-analyses
